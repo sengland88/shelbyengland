@@ -30,30 +30,14 @@ footer {
     background-color: #E9E9E9;
 }
 
-#navText {
-    background-color: #6e7376;
-    color: white;
-    font-size: 32px;
-    
-}
-
 .navLinks {
     margin-left: 25px;
 }
 
 .navImages {
     margin-bottom: 50px;
-    margin-right: 20px;
-    margin-left: 20;
-}
-
-.carousel-item {
-    /* height: 100%; */
-    /* background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .rowSpacing {
@@ -65,3 +49,18 @@ footer {
     color: gray;
     /* background-color: #EEB6B7; */
 }
+
+.theModal {
+    background-color:  #99CDE4;
+}
+
+#navText {
+    background-color: #6e7376;
+    color: white;
+    font-size: 32px;
+    
+}
+
+
+
+
