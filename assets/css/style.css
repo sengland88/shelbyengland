@@ -1,0 +1,67 @@
+body {
+    font-family: 'Buda', cursive;  
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+main {
+    padding: 25px;
+}
+
+section {
+    color: #1a1a1a;
+    background-color: #99CDE4; 
+    padding: 5px
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #E9E9E9;
+}
+
+#navText {
+    background-color: #6e7376;
+    color: white;
+    font-size: 32px;
+    
+}
+
+.navLinks {
+    margin-left: 25px;
+}
+
+.navImages {
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20;
+}
+
+.carousel-item {
+    /* height: 100%; */
+    /* background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.rowSpacing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttonColor {
+    color: gray;
+    /* background-color: #EEB6B7; */
+}
