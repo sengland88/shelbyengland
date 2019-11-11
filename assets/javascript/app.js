@@ -25,73 +25,80 @@ AOS.init({
 
 });
 
-let portfolio = [
-    {
-        name: "PokeMasters PokeDex",
+let portfolio = {
+    "PokeMasters PokeDex" : {
         image: "assets/images/pika.jpg",
         description: "The PokeDex is a Pokemon Trainer's best resource and most important tool. It's time to go exploring.",
+        skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, Two APIs (PokeAPI and WeatherBit), Geolocation, Local Storage and User Validation",
         github: "https://github.com/sengland88/pokedex",
-        url: "https://sengland88.github.io/pokedex/"
+        url: "https://sengland88.github.io/pokedex/", 
+        cta: "Let's Go!"
+
     }, 
-    {
-        name: "Assemble the Avengers",
+    "Assemble the Avengers": {
         image: "assets/images/the avengers.jpg",
-        description: "Help the Avengers remember who they are by loading GIFs into a special webpage built to help recover their memories.", 
+        description: "Help the Avengers remember who they are by loading GIFs into a special webpage built to help recover their memories.",
+        skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, API (GIPHY) and User Validation",
         github: "https://github.com/sengland88/GIPHY",
-        url: "https://sengland88.github.io/GIPHY/"
+        url: "https://sengland88.github.io/GIPHY/",
+        cta: "Save the Avengers!"
     },
-    {
-        name: "Save the Pokemon!",
+    "Save the Pokemon": {
         image: "assets/images/the pokemon.png",
         description: "Team Rocket is at it again! This time, our heroes cant do it alone. They need your help!",
+        skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
         github: "https://github.com/sengland88/unit-4-game",
-        url: "https://sengland88.github.io/unit-4-game/"
-    },
-    {
-        name: "The Pro-Bending Championship",
+        url: "https://sengland88.github.io/unit-4-game/",
+        cta: "Save the Pokemon!"
+    }, 
+    "The Pro-Bending Championship": {
         image: "assets/images/the avatar.jpg",
         description: "Fight your way to the top and become the 2019 Pro-Bending Champion!",
+        skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
         github: "https://github.com/sengland88/unit-4-game_RPG",
-        url: "https://sengland88.github.io/unit-4-game_RPG/"
+        url: "https://sengland88.github.io/unit-4-game_RPG/",
+        cta: "Step into the Arena"
     },
-    {
-        name: "Grey's Anatomy — A Trivia Game!",
+    "Grey's Anatomy — A Trivia Game": {
         image: "assets/images/the greys.jpg",
         description: "Think you know Grey's Anatomy? Test your knowledge by taking this quiz!",
+        skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
         github: "https://github.com/sengland88/TriviaGame", 
-        url: "https://sengland88.github.io/TriviaGame/"
+        url: "https://sengland88.github.io/TriviaGame/",
+        cta: "Test Your Knowledge"
     },
-    {
-        name: "Train Time",
+    "Train Time" : {
         image: "assets/images/train tracks.jpg",
         description: "It's first day of training as the next Train Station Manager. Get to know your Train Scheduler.",
+        skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, Server-side Storage (Firebase)",
         github: "https://github.com/sengland88/Train-Time",
-        url: "https://sengland88.github.io/Train-Time/"
+        url: "https://sengland88.github.io/Train-Time/",
+        cta: "Begin Your Training"
     },
-    {
-        name: "TV Show Hangman Game",
+    "TV Show Hangman Game" : {
         image: "assets/images/the hangman.jpg",
         description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
+        skills: "HTML, CSS and JavaScript",
         github: "https://github.com/sengland88/Word-Guess-Game",
-        url: "https://sengland88.github.io/unit-4-game/"
+        url: "https://sengland88.github.io/unit-4-game/",
+        cta: "Play the Game"
+
     },
-    {
-        name: "The Psychic Game",
+    "The Psychic Game" : {
         image: "assets/images/the psychic.jpg",
         description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
+        skills: "HTML, CSS and JavaScript",
         github: "https://github.com/sengland88/Psychic-Game",
-        url: "https://sengland88.github.io/Psychic-Game/"
+        url: "https://sengland88.github.io/Psychic-Game/",
+        cta: "Play the Game"
     }
-]
+} // object end bracket
 
-for (let i = 0 ; i < portfolio.length ; i++ ) {
-    console.log(portfolio[i])
-}
 
 // index on click functions
 
 $(".strengths").on("click", function() {    
-    $(".my-modal").modal('show')
+    $(".strengthsFinder").modal('show')
 })
 
 $(".stand").on("click", function() {
@@ -112,40 +119,14 @@ $(".theProject").on("click", function() {
     createModal(project)
 })
 
-$(".avengers").on("click", function() {
-
-})
-
-$(".pokemon").on("click", function() {
-
-})
-
-$(".korra").on("click", function() {
-
-})
-
-$(".greys").on("click", function() {
-
-})
-
-$(".train").on("click", function() {
-
-})
-
-$(".hangman").on("click", function() {
-
-})
-
-$(".psychic").on("click", function() {
-
-})
 
 
 function createModal(project) {
 
-     for (let i = 0; i < portfolio.length; i++) {
+    $("#project-modal").remove()
+
         let modal = $("<div>").addClass("modal fade")
-            .attr("id" , `${project}`)
+            .attr("id" , "project-modal")
             .attr("tabindex", "-1")
             .attr("role", "dialog")
             .attr("aria-labelledby", "exampleModalCenterTitle")
@@ -153,22 +134,35 @@ function createModal(project) {
         let modalDialog = $("<div>").addClass("modal-dialog modal-dialog-centered")
             .attr("role", "document")
         let modalContent = $("<div>").addClass("modal-content")
-        let modalHeader = $("<div>").addClass("modal-header")
-            .html(`<h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                    </button>`)
+        let modalHeader = $("<div>").addClass("modal-header theModal")
+            .html(`<h5 class="modal-title" id="exampleModalLongTitle">${project}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>`)
         let modalBody = $("<div>").addClass("modal-body")
-        let modalFooter = $("<div>").addClass("modal-footer")
-            .html(`<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary"`)
+
+        let modalImage = $("<img>")
+                        .attr("src", portfolio[project].image)
+                        .addClass("img-fluid")
+                        .attr("alt", "Responsive image")
+                        .appendTo(modalBody)
+
+        let modalText = $("<div>").html(`<br>${portfolio[project].description}<br><br>
+                        Skilled Used: ${portfolio[project].skills}<br><br>
+                        To view the code on GitHub, <a href="${portfolio[project].github}" target="blank">click here</a>. `)
+                        .appendTo(modalBody)
+                        
+        let modalFooter = $("<div>").addClass("modal-footer theModal")
+            .html(`<a href="${portfolio[project].url}" target="blank" class="btn btn-primary">${portfolio[project].cta}</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                               `)
         modalContent.append(modalHeader)
         modalContent.append(modalBody)
         modalContent.append(modalFooter)
         modalDialog.append(modalContent)
         modal.append(modalDialog)
-        $(".myProjects").append(modal)
-        $("body").modal('show')
-        console.log("this is the end")
-    }
+        $("body").append(modal)
+        $("#project-modal").modal('show')
+        console.log(portfolio[project])
+        console.log(portfolio[project].image)
 }
