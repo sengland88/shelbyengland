@@ -25,19 +25,24 @@
 </head>
 
 <body>
-
+        <span id="home"></span>
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center sticky-top" id="navText">
             <div class="container">
-                <a href="index.html" class="navbar-brand d-flex w-50 mr-auto" id="navText">Shelby England</a>
+                <a href="#home" class="navbar-brand d-flex w-50 mr-auto" id="navText">Shelby England</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
                     <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
                         <li class="nav-item navLinks">
-                            <a class="nav-link" href="portfolio.html" id="navText"></a>
+                                <a class="nav-link" href="#strength" id="navText">Strengths</a>
                         </li>
-
+                        <li class="nav-item navLinks">
+                            <a class="nav-link" href="#port" id="navText">Portfolio</a>
+                        </li>
+                        <li class="nav-item navLinks">
+                            <a class="nav-link" href="#contact" id="navText">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -68,7 +73,7 @@
 <!-- about me section -->
 <div class="container aboutMe">
 
-    <div class="row rowSpacing" id="aboutMe" data-aos="fade-right">
+    <div class="row rowSpacing" id="aboutMe">
 
         <div class="col-sm">
 
@@ -94,7 +99,7 @@
 
     <div class="container">     
 
-        <div class="row rowSpacing text-center" data-aos="flip-up">
+        <div class="row rowSpacing text-center" data-aos="flip-up" data-aos-duration="750" id="strength">
 
             <div class="col-sm">
 
@@ -110,9 +115,9 @@
 <!-- strengths -->
 <div class="container"> 
     
-    <div class="row rowSpacing text-center" data-aos="fade-left">
+    <div class="row rowSpacing text-center" id="strength">
 
-        <div class="col-sm pb-4" data-aos="fade-up">
+        <div class="col-sm pb-4" data-aos="fade-right">
                 <img src="assets/images/strength.png" class="img-fluid strengths" alt="Responsive image" value="">
                 <h3>StrengthsFinder</h3>
                 <button type="button" class="btn btn-outline-dark strengths buttonColor">Learn More</button>
@@ -124,7 +129,7 @@
                 <button type="button" class="btn btn-outline-dark sight buttonColor">Learn More</button>
             </div>
             
-            <div class="col-sm pb-4" data-aos="fade-down">
+            <div class="col-sm pb-4" data-aos="fade-left">
                 <img src="assets/images/standout.png" class="img-fluid stand" alt="Responsive image">
                 <h3>StandOut</h3>
                 <button type="button" class="btn btn-outline-dark stand buttonColor">Learn More</button>
@@ -137,9 +142,9 @@
 
         <div class="container">     
 
-            <div class="row rowSpacing text-center" data-aos="flip-up">
+            <div class="row rowSpacing text-center" data-aos="flip-up" data-aos-duration="750" id="port">
 
-                <div class="col-sm">
+                <div class="col-sm" >
 
                     <h2>Projects</h2>
 
@@ -153,9 +158,9 @@
 
 <div class="container">
 
-            <div class="row rowSpacing" id="aboutMe">
+            <div class="row rowSpacing" data-aos="zoom-in" data-aos-duration="750">
 
-                <div class="col-sm-8" data-aos="zoom-in-right">
+                <div class="col-sm-8">
 
                     <p>Each week, in the UCF Certificate program, I was tasked with creating a variety of apps — ranging from simple JavaScript applications, like a hangman game, to more complex project that utilized local storage, API calls, JavaScript and dynamic elements.</p>
 
@@ -163,7 +168,7 @@
                     
                 </div>
                 
-                <div class="col-sm text-center" data-aos="zoom-in-left">
+                <div class="col-sm text-center">
 
                     <img src="assets/images/toys.png" class="img-fluid" alt="Responsive image">
     
@@ -176,19 +181,19 @@
 
         <div class="row rowSpacing text-center">
 
-            <div class="col-sm pb-4" data-aos="fade-up">
+            <div class="col-sm pb-4" data-aos="fade-right">
                 <img src="assets/images/pokedex.jpg" class="img-fluid theProject" alt="Responsive image" value="PokeMasters PokeDex">
                 <h3>PokeMasters PokeDex</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="PokeMasters PokeDex">Learn More</button>
             </div>
 
-            <div class="col-sm pb-4" data-aos="fade-down">
+            <div class="col-sm pb-4" data-aos="fade-up">
                 <img src="assets/images/avengers.jpg" class="img-fluid theProject" alt="Responsive image" value="Assemble the Avengers">
                 <h3>Assemble the Avengers</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="Assemble the Avengers">Learn More</button>
             </div>
 
-            <div class="col-sm pb-4" data-aos="fade-up">
+            <div class="col-sm pb-4" data-aos="fade-left">
                 <img src="assets/images/pokemon_game.jpg" class="img-fluid theProject" alt="Responsive image" value="Save the Pokemon">
                 <h3>Save the Pokemon!</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="Save the Pokemon">Learn More</button>
@@ -197,21 +202,21 @@
         </div>
 
 
-        <div class="row rowSpacing text-center" data-aos="fade-left">
+        <div class="row rowSpacing text-center">
 
-            <div class="col-sm pb-4" data-aos="fade-up">
+            <div class="col-sm pb-4" data-aos="fade-right">
                 <img src="assets/images/korra_RPG.jpg" class="img-fluid theProject" alt="Responsive image" value="The Pro-Bending Championship">
                 <h3>The Pro-Bending Championship</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="The Pro-Bending Championship">Learn More</button>
             </div>
 
-                <div class="col-sm pb-4" data-aos="fade-down">
+                <div class="col-sm pb-4" data-aos="fade-up">
                 <img src="assets/images/greys.jpg" class="img-fluid theProject" alt="Responsive image" value="Grey's Anatomy — A Trivia Game">
                 <h3>Grey's Anatomy Trivia</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="Grey's Anatomy — A Trivia Game">Learn More</button>
             </div>
 
-            <div class="col-sm pb-4" data-aos="fade-up">
+            <div class="col-sm pb-4" data-aos="fade-left">
                 <img src="assets/images/train.jpg" class="img-fluid theProject" alt="Responsive image" value="Train Time">
                 <h3>Train Time</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="Train Time">Learn More</button>
@@ -219,15 +224,15 @@
 
         </div>
 
-        <div class="row rowSpacing text-center" data-aos="fade-left">
+        <div class="row rowSpacing text-center">
 
-            <div class="col-sm pb-4" data-aos="fade-up">
+            <div class="col-sm pb-4" data-aos="fade-right" data-aos-duration='4000'>
                 <img src="assets/images/hangman_photo.jpg" class="img-fluid theProject" alt="Responsive image" value="TV Show Hangman Game">
                 <h3>TV Show Hangman Game</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="TV Show Hangman Game">Learn More</button>
             </div>
 
-            <div class="col-sm pb-4" data-aos="fade-down">
+            <div class="col-sm pb-4" data-aos="fade-left">
                 <img src="assets/images/psychic.jpg" class="img-fluid theProject" alt="Responsive image" value="The Psychic Game">
                 <h3>The Psychic Game</h3>
                 <button type="button" class="btn btn-outline-dark theProject buttonColor" value="The Psychic Game">Learn More</button>
@@ -240,7 +245,8 @@
 <section>
         <div class="container">     
     
-            <div class="row rowSpacing text-center" data-aos="flip-up">
+            <div class="row rowSpacing text-center" data-aos="flip-up" data-aos-duration="750" id="contact">
+
                 <div class="col-sm">
     
                     <h2>Contact Information</h2>
@@ -254,9 +260,9 @@
 
 <div class="container">
 
-        <div class="row rowSpacing" id="aboutMe" data-aos="fade-right">
+        <div class="row rowSpacing" id="aboutMe" data-aos="zoom-in-right"  data-aos-duration="750">
 
-            <div class="col-sm">
+            <div class="col-sm" >
 
                 <img src="assets/images/heart.png" class="img-fluid" alt="Responsive image">
                 
