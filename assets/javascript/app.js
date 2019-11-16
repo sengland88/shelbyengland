@@ -1,4 +1,5 @@
 AOS.init();
+createProjects()
 
 // You can also pass an optional settings object
 // below listed default settings
@@ -24,6 +25,50 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+let projects = [
+    {
+        name: "PokeMasters PokeDex",
+        image: "assets/images/pokedex.jpg",
+        aos: "fade-right"
+    },
+    {
+        name: "Assemble the Avengers",
+        image: "assets/images/avengers.jpg",
+        aos: "fade-up"
+    },
+    {
+        name: "Save the Pokemon",
+        image: "assets/images/pokemon_game.jpg",
+        aos: "fade-left"
+    },
+    {
+        name: "The Pro-Bending Championship",
+        image: "assets/images/korra_RPG.jpg",
+        aos: "fade-right"
+    }, 
+    {
+        name: "Grey's Anatomy Trivia",
+        image: "assets/images/greys.jpg",
+        aos: "fade-up"
+    }, 
+    {
+        name: "Train Time",
+        image: "assets/images/train.jpg",
+        aos: "fade-left"
+    }, 
+    {
+        name: "TV Show Hangman Game",
+        image: "assets/images/hangman_photo.jpg",
+        aos: "fade-right"
+    }, 
+    {
+        name: "The Psychic Game",
+        image: "assets/images/psychic.jpg",
+        aos: "fade-left"
+    },
+
+]
 
 let portfolio = {
     "PokeMasters PokeDex" : {
@@ -59,7 +104,7 @@ let portfolio = {
         url: "https://sengland88.github.io/unit-4-game_RPG/",
         cta: "Step into the Arena"
     },
-    "Grey's Anatomy — A Trivia Game": {
+    "Grey's Anatomy Trivia": {
         image: "assets/images/the greys.jpg",
         description: "Think you know Grey's Anatomy? Test your knowledge by taking this quiz!",
         skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
@@ -110,16 +155,42 @@ $(".sight").on("click", function() {
 })
 
 
-// portfolio on click functions
 
-$(".theProject").on("click", function() {
-    
+$(document).on("click", ".theProject" , function(){
+
     let project = $(this).attr("value")
     console.log(project)
     createModal(project)
+    
 })
 
 
+
+
+function createProjects() {
+
+    for (let i = 0; i < projects.length ; i++ ) {
+
+        console.log(projects[i].name)
+
+            let theDiv = $("<div>").addClass("col-sm-4 mb-4 pb-4 text-center")
+                        .attr("data-aos", projects[i].aos)
+            let theImage = $("<img>").addClass("img-fluid theProject")
+                            .attr("alt" , "Responsive image")
+                            .attr("value", projects[i].name)
+                            .attr("src" , projects[i].image)
+            let theName = $("<h3>").text(projects[i].name)
+            let theButton = $("<button>").addClass("btn btn-outline-dark theProject buttonColor")
+                            .attr("type" , "button")
+                            .attr("value" , projects[i].name)
+                            .text("Learn More")
+            theDiv.append(theImage)
+            theDiv.append(theName)
+            theDiv.append(theButton)
+            $("#projectsDiv").append(theDiv)
+    }
+    
+}
 
 function createModal(project) {
 
@@ -168,7 +239,7 @@ function createModal(project) {
 }
 
 // function to handle scroll
-$(function(){s
+$(function(){
     $('a[href*="#"]:not([href="#"])').click(function(){
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname){
             var target = $(this.hash);
