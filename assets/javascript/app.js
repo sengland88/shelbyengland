@@ -1,5 +1,4 @@
 AOS.init();
-createProjects()
 
 // You can also pass an optional settings object
 // below listed default settings
@@ -164,7 +163,7 @@ $(document).on("click", ".theProject" , function(){
     
 })
 
-
+createProjects()
 
 
 function createProjects() {
