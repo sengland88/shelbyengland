@@ -73,7 +73,7 @@
 <!-- about me section -->
 <div class="container aboutMe">
 
-    <div class="row rowSpacing" id="aboutMe">
+    <div class="row rowSpacing" >
 
         <div class="col-sm">
 
@@ -219,13 +219,47 @@
 
                 <p>You can download a copy of my resume by <a href="https://drive.google.com/open?id=1agYU30NPU8xkJg0bcA65NlbCexhsw99M" target="blank">clicking here</a>.</p>
 
-                <p>Feel Free to contact me at the options below:</p>
-                <p><strong>Email:</strong> Shelby.England@knights.ucf.edu</p>
-                <p><strong>Phone:</strong> 205-515-4158</p>
+                <button type="button" class="btn btn-outline-dark" id="contactBtn">Contact Me</button>
 
             </div>
     
         </div>
+
+        <div class="row rowSpacing" id="contactMe" data-aos="zoom-in-right"  data-aos-duration="750">
+
+            <div class="col-sm" >
+
+                    <img src="assets/images/heart_2.png" class="img-fluid" alt="Responsive image">
+                    
+            </div>
+
+            <div class="col-sm" >
+
+                    <h3>I'm Looking Forward to Connecting With You!</h3>
+
+                    <p>Please complete the form below. Once received, I will be in contact with you within 24 hours.</p>
+
+                    <p>You can download a copy of my resume by <a href="https://drive.google.com/open?id=1agYU30NPU8xkJg0bcA65NlbCexhsw99M" target="blank">clicking here</a>.</p>
+
+                    <form action="https://formspree.io/mknnrkbq" method="POST" target="_blank">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@LetsWorkTogether.com" name="_replyto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type a Brief Message" name="message"></textarea>
+                        </div>                        
+                        <input type="button" class="btn btn-outline-dark" id="contactBtn" type="submit" value="Send">
+                    </form>
+                    
+            </div>
+
+        </div>         
 
 </div>
 

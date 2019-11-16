@@ -1,3 +1,4 @@
+$("#contactMe").hide()
 AOS.init();
 
 // You can also pass an optional settings object
@@ -68,6 +69,7 @@ let projects = [
     },
 
 ]
+
 
 let portfolio = {
     "PokeMasters PokeDex" : {
@@ -154,7 +156,6 @@ $(".sight").on("click", function() {
 })
 
 
-
 $(document).on("click", ".theProject" , function(){
 
     let project = $(this).attr("value")
@@ -162,6 +163,12 @@ $(document).on("click", ".theProject" , function(){
     createModal(project)
     
 })
+
+$("#contactBtn").on("click", function(){
+    $("#aboutMe").hide()
+    $("#contactMe").show()    
+})
+
 
 createProjects()
 
