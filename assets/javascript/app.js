@@ -126,7 +126,7 @@ let portfolio = {
         description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
         skills: "HTML, CSS and JavaScript",
         github: "https://github.com/sengland88/Word-Guess-Game",
-        url: "https://sengland88.github.io/unit-4-game/",
+        url: "https://sengland88.github.io/Word-Guess-Game/",
         cta: "Play the Game"
 
     },
@@ -256,7 +256,6 @@ $(function(){
                 }, 1000);
                 return false;
             }
-
         }
     })
 })
