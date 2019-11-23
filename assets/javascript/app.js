@@ -72,7 +72,11 @@ let projects = [
         image: "assets/images/korra_RPG.jpg",
         aos: "fade-left"
     },
-
+    {
+        name: "TvMaze",
+        image: "assets/images/tvmaze.jpg",
+        aos: "fade-up"
+    }
 ]
 
 
@@ -149,6 +153,14 @@ let portfolio = {
         skills: "node.js",
         github: "https://github.com/sengland88/liri-node-app",
         url: "https://drive.google.com/drive/folders/14W-AIYhUWaPp8yDLfR5Jnwdx6ehh9EyE",
+        cta: "View the Demos"
+    },
+    "TvMaze" :{
+        image: "assets/images/tv.png",
+        description: "A node.js application that will retrieve actor or show information per user's request.",
+        skills: "node.js",
+        github: "https://github.com/sengland88/tvmaze",
+        url: "https://drive.google.com/open?id=1ZF4-_Atgs6oqszafHdA72Rf5k1xsC_Cd",
         cta: "View the Demos"
     }
 } // object end bracket
