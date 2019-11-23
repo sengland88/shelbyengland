@@ -38,13 +38,13 @@ let projects = [
         aos: "fade-up"
     },
     {
-        name: "Save the Pokemon",
-        image: "assets/images/pokemon_game.jpg",
+        name: "LIRI",
+        image: "assets/images/liri.jpg",
         aos: "fade-left"
     },
     {
-        name: "The Pro-Bending Championship",
-        image: "assets/images/korra_RPG.jpg",
+        name: "Save the Pokemon",
+        image: "assets/images/pokemon_game.jpg",
         aos: "fade-right"
     }, 
     {
@@ -65,6 +65,11 @@ let projects = [
     {
         name: "The Psychic Game",
         image: "assets/images/psychic.jpg",
+        aos: "fade-up"
+    },
+    {
+        name: "The Pro-Bending Championship",
+        image: "assets/images/korra_RPG.jpg",
         aos: "fade-left"
     },
 
@@ -137,6 +142,14 @@ let portfolio = {
         github: "https://github.com/sengland88/Psychic-Game",
         url: "https://sengland88.github.io/Psychic-Game/",
         cta: "Play the Game"
+    },
+    "LIRI" : {
+        image: "assets/images/liri-bot.jpg",
+        description: "A node.js application, LIRI will retrieve information on concerts, songs and movies.",
+        skills: "node.js",
+        github: "https://github.com/sengland88/liri-node-app",
+        url: "https://drive.google.com/drive/folders/14W-AIYhUWaPp8yDLfR5Jnwdx6ehh9EyE",
+        cta: "View the Demos"
     }
 } // object end bracket
 
@@ -225,7 +238,7 @@ function createModal(project) {
                         .appendTo(modalBody)
 
         let modalText = $("<div>").html(`<br>${portfolio[project].description}<br><br>
-                        Skilled Used: ${portfolio[project].skills}<br><br>
+                        Skill(s) Used: ${portfolio[project].skills}<br><br>
                         To view the code on GitHub, <a href="${portfolio[project].github}" target="blank">click here</a>. `)
                         .appendTo(modalBody)
                         
