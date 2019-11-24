@@ -184,7 +184,6 @@ $(".sight").on("click", function() {
 $(document).on("click", ".theProject" , function(){
 
     let project = $(this).attr("value")
-    console.log(project)
     createModal(project)
     
 })
@@ -201,8 +200,6 @@ createProjects()
 function createProjects() {
 
     for (let i = 0; i < projects.length ; i++ ) {
-
-        console.log(projects[i].name)
 
             let theDiv = $("<div>").addClass("col-sm-4 mb-4 pb-4 text-center")
                         .attr("data-aos", projects[i].aos)
@@ -265,8 +262,6 @@ function createModal(project) {
         modal.append(modalDialog)
         $("body").append(modal)
         $("#project-modal").modal('show')
-        console.log(portfolio[project])
-        console.log(portfolio[project].image)
 }
 
 // function to handle scroll
