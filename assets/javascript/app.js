@@ -75,7 +75,12 @@ let projects = [
     {
         name: "TvMaze",
         image: "assets/images/tvmaze.jpg",
-        aos: "fade-up"
+        aos: "fade-right"
+    },
+    {
+        name: "Bamazon",
+        image: "assets/images/bamazon.jpg",
+        aos: "fade-left"
     }
 ]
 
@@ -161,6 +166,14 @@ let portfolio = {
         skills: "node.js",
         github: "https://github.com/sengland88/tvmaze",
         url: "https://drive.google.com/open?id=1ZF4-_Atgs6oqszafHdA72Rf5k1xsC_Cd",
+        cta: "View the Demos"
+    },
+    "Bamazon" :{
+        image: "assets/images/bamazon.png",
+        description: "A node.js application that utilizes MySQL to allow customers and managers to access products.",
+        skills: "node.js, MySQL",
+        github: "https://github.com/sengland88/Bamazon-mysql",
+        url: "https://drive.google.com/open?id=1gIDN7Wf24dHrya_9ZonP-_ibc5fHXjUq",
         cta: "View the Demos"
     }
 } // object end bracket
