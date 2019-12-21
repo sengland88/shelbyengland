@@ -80,6 +80,11 @@ let projects = [
     {
         name: "Bamazon",
         image: "assets/images/bamazon.jpg",
+        aos: "fade-up"
+    },
+    {
+        name: "Magnet - A Dating App",
+        image: "assets/images/magnet.jpg",
         aos: "fade-left"
     }
 ]
@@ -175,6 +180,14 @@ let portfolio = {
         github: "https://github.com/sengland88/Bamazon-mysql",
         url: "https://drive.google.com/open?id=1gIDN7Wf24dHrya_9ZonP-_ibc5fHXjUq",
         cta: "View the Demos"
+    },
+    "Magnet - A Dating App" :{
+        image: "assets/images/dating.jpg",
+        description: "A node.js and express application that matches users with their ideal mate.",
+        skills: "node.js, express",
+        github: "https://github.com/sengland88/FriendFinder",
+        url: "https://shrouded-bayou-80547.herokuapp.com/",
+        cta: "Find Your Mate"
     }
 } // object end bracket
 
