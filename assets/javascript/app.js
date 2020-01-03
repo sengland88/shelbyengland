@@ -86,6 +86,11 @@ let projects = [
         name: "Magnet - A Dating App",
         image: "assets/images/magnet.jpg",
         aos: "fade-left"
+    },
+    {
+        name: "King Burger",
+        image: "assets/images/kingburger.jpg",
+        aos: "fade-up"
     }
 ]
 
@@ -183,11 +188,19 @@ let portfolio = {
     },
     "Magnet - A Dating App" :{
         image: "assets/images/dating.jpg",
-        description: "A node.js and express application that matches users with their ideal mate.",
+        description: "A node.js and express application that matches users with their ideal mate. This app is deployed to Heroku.",
         skills: "node.js, express",
         github: "https://github.com/sengland88/FriendFinder",
         url: "https://shrouded-bayou-80547.herokuapp.com/",
         cta: "Find Your Mate"
+    },
+    "King Burger" :{
+        image: "assets/images/bonquiqui.jpg",
+        description: "A node.js app that utilizes express, express-handlebars and MySQL to produce a selection of burgers via user input. This app is deployed to Heroku.",
+        skills: "node.js, express, express-handlers, MySQL",
+        github: "https://github.com/sengland88/burger",
+        url: "https://gentle-scrubland-63294.herokuapp.com/",
+        cta: "Eat at King Burger"
     }
 } // object end bracket
 
