@@ -57,40 +57,40 @@ let projects = [
         image: "assets/images/train.jpg",
         aos: "fade-left"
     }, 
-    {
-        name: "TV Show Hangman Game",
-        image: "assets/images/hangman_photo.jpg",
-        aos: "fade-right"
-    }, 
-    {
-        name: "The Psychic Game",
-        image: "assets/images/psychic.jpg",
-        aos: "fade-up"
-    },
+    // {
+    //     name: "TV Show Hangman Game",
+    //     image: "assets/images/hangman_photo.jpg",
+    //     aos: "fade-right"
+    // }, 
+    // {
+    //     name: "The Psychic Game",
+    //     image: "assets/images/psychic.jpg",
+    //     aos: "fade-up"
+    // },
     {
         name: "The Pro-Bending Championship",
         image: "assets/images/korra_RPG.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "TvMaze",
         image: "assets/images/tvmaze.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "Bamazon",
         image: "assets/images/bamazon.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "Magnet - A Dating App",
         image: "assets/images/magnet.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "King Burger",
         image: "assets/images/kingburger.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     }
 ]
 
@@ -100,8 +100,8 @@ let portfolio = {
         image: "assets/images/pika.jpg",
         description: "The PokeDex is a Pokemon Trainer's best resource and most important tool. It's time to go exploring.",
         skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, Two APIs (PokeAPI and WeatherBit), Geolocation, Local Storage and User Validation",
-        github: "https://github.com/sengland88/pokedex",
-        url: "https://sengland88.github.io/pokedex/", 
+        github: "http://bit.ly/35utpYW",
+        url: "http://bit.ly/36vidwn", 
         cta: "Let's Go!"
 
     }, 
@@ -109,97 +109,96 @@ let portfolio = {
         image: "assets/images/the avengers.jpg",
         description: "Help the Avengers remember who they are by loading GIFs into a special webpage built to help recover their memories.",
         skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, API (GIPHY) and User Validation",
-        github: "https://github.com/sengland88/GIPHY",
-        url: "https://sengland88.github.io/GIPHY/",
+        github: "http://bit.ly/35szxRp",
+        url: "http://bit.ly/2FmSvhR",
         cta: "Save the Avengers!"
     },
     "Save the Pokemon": {
         image: "assets/images/the pokemon.png",
         description: "Team Rocket is at it again! This time, our heroes cant do it alone. They need your help!",
         skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
-        github: "https://github.com/sengland88/unit-4-game",
-        url: "https://sengland88.github.io/unit-4-game/",
+        github: "http://bit.ly/2twl9KP",
+        url: "http://bit.ly/39Kn52Y",
         cta: "Save the Pokemon!"
     }, 
     "The Pro-Bending Championship": {
         image: "assets/images/the avatar.jpg",
         description: "Fight your way to the top and become the 2019 Pro-Bending Champion!",
         skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
-        github: "https://github.com/sengland88/unit-4-game_RPG",
-        url: "https://sengland88.github.io/unit-4-game_RPG/",
+        github: "http://bit.ly/36sybri",
+        url: "http://bit.ly/2ZUhi6a",
         cta: "Step into the Arena"
     },
     "Grey's Anatomy Trivia": {
         image: "assets/images/the greys.jpg",
         description: "Think you know Grey's Anatomy? Test your knowledge by taking this quiz!",
         skills: "HTML, CSS, Bootstrap, JavaScript and JQuery",
-        github: "https://github.com/sengland88/TriviaGame", 
-        url: "https://sengland88.github.io/TriviaGame/",
+        github: "http://bit.ly/35zZBu8", 
+        url: "http://bit.ly/35vCtwF",
         cta: "Test Your Knowledge"
     },
     "Train Time" : {
         image: "assets/images/train tracks.jpg",
         description: "It's first day of training as the next Train Station Manager. Get to know your Train Scheduler.",
         skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, Server-side Storage (Firebase)",
-        github: "https://github.com/sengland88/Train-Time",
-        url: "https://sengland88.github.io/Train-Time/",
+        github: "http://bit.ly/39NDzqP",
+        url: "http://bit.ly/36w0x3V",
         cta: "Begin Your Training"
     },
-    "TV Show Hangman Game" : {
-        image: "assets/images/the hangman.jpg",
-        description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
-        skills: "HTML, CSS and JavaScript",
-        github: "https://github.com/sengland88/Word-Guess-Game",
-        url: "https://sengland88.github.io/Word-Guess-Game/",
-        cta: "Play the Game"
-
-    },
-    "The Psychic Game" : {
-        image: "assets/images/the psychic.jpg",
-        description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
-        skills: "HTML, CSS and JavaScript",
-        github: "https://github.com/sengland88/Psychic-Game",
-        url: "https://sengland88.github.io/Psychic-Game/",
-        cta: "Play the Game"
-    },
+    // "TV Show Hangman Game" : {
+    //     image: "assets/images/the hangman.jpg",
+    //     description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
+    //     skills: "HTML, CSS and JavaScript",
+    //     github: "https://github.com/sengland88/Word-Guess-Game",
+    //     url: "https://sengland88.github.io/Word-Guess-Game/",
+    //     cta: "Play the Game"
+    // },
+    // "The Psychic Game" : {
+    //     image: "assets/images/the psychic.jpg",
+    //     description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
+    //     skills: "HTML, CSS and JavaScript",
+    //     github: "https://github.com/sengland88/Psychic-Game",
+    //     url: "https://sengland88.github.io/Psychic-Game/",
+    //     cta: "Play the Game"
+    // },
     "LIRI" : {
         image: "assets/images/liri-bot.jpg",
         description: "A node.js application, LIRI will retrieve information on concerts, songs and movies.",
         skills: "node.js",
-        github: "https://github.com/sengland88/liri-node-app",
-        url: "https://drive.google.com/drive/folders/14W-AIYhUWaPp8yDLfR5Jnwdx6ehh9EyE",
+        github: "http://bit.ly/2FmINfo",
+        url: "http://bit.ly/2ZWQP87",
         cta: "View the Demos"
     },
     "TvMaze" :{
         image: "assets/images/tv.png",
         description: "A node.js application that will retrieve actor or show information per user's request.",
         skills: "node.js",
-        github: "https://github.com/sengland88/tvmaze",
-        url: "https://drive.google.com/open?id=1ZF4-_Atgs6oqszafHdA72Rf5k1xsC_Cd",
+        github: "http://bit.ly/2T0xyBc",
+        url: "http://bit.ly/35t7d1e",
         cta: "View the Demos"
     },
     "Bamazon" :{
         image: "assets/images/bamazon.png",
         description: "A node.js application that utilizes MySQL to allow customers and managers to access products.",
         skills: "node.js, MySQL",
-        github: "https://github.com/sengland88/Bamazon-mysql",
-        url: "https://drive.google.com/open?id=1gIDN7Wf24dHrya_9ZonP-_ibc5fHXjUq",
+        github: "http://bit.ly/39KnSks",
+        url: "http://bit.ly/39HinTh",
         cta: "View the Demos"
     },
     "Magnet - A Dating App" :{
         image: "assets/images/dating.jpg",
         description: "A node.js and express application that matches users with their ideal mate. This app is deployed to Heroku.",
         skills: "node.js, express",
-        github: "https://github.com/sengland88/FriendFinder",
-        url: "https://shrouded-bayou-80547.herokuapp.com/",
+        github: "http://bit.ly/2QuG2PC",
+        url: "http://bit.ly/2MZeHCE",
         cta: "Find Your Mate"
     },
     "King Burger" :{
         image: "assets/images/bonquiqui.jpg",
         description: "A node.js app that utilizes express, express-handlebars and MySQL to produce a selection of burgers via user input. This app is deployed to Heroku.",
         skills: "node.js, express, express-handlers, MySQL",
-        github: "https://github.com/sengland88/burger",
-        url: "https://gentle-scrubland-63294.herokuapp.com/",
+        github: "http://bit.ly/2sJ9sjX",
+        url: "http://bit.ly/2sGJGg9",
         cta: "Eat at King Burger"
     }
 } // object end bracket
