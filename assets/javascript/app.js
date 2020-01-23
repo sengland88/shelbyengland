@@ -28,34 +28,39 @@ AOS.init({
 
 let projects = [
     {
+        name: "unWrapped",
+        image: "assets/images/unwrapped.jpg",
+        aos: "fade-right"
+    },
+    {
         name: "PokeMasters PokeDex",
         image: "assets/images/pokedex.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "Assemble the Avengers",
         image: "assets/images/avengers.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "LIRI",
         image: "assets/images/liri.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "Save the Pokemon",
         image: "assets/images/pokemon_game.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     }, 
     {
         name: "Grey's Anatomy Trivia",
         image: "assets/images/greys.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     }, 
     {
         name: "Train Time",
         image: "assets/images/train.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     }, 
     // {
     //     name: "TV Show Hangman Game",
@@ -70,32 +75,41 @@ let projects = [
     {
         name: "The Pro-Bending Championship",
         image: "assets/images/korra_RPG.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "TvMaze",
         image: "assets/images/tvmaze.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "Bamazon",
         image: "assets/images/bamazon.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "Magnet - A Dating App",
         image: "assets/images/magnet.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "King Burger",
         image: "assets/images/kingburger.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     }
 ]
 
 
 let portfolio = {
+    "unWrapped" : {
+        image: "assets/images/unwrapped2.jpg",
+        description: "As a party planning application, unWrapped helps users stay organized before, during and after a celebration.",
+        skills: "HTML, CSS, Bootstrap, JavaScript, JQuery, MySQL, Sequelize, Randomatic, Express.js, Express-Handlebars, PDFKit, ",
+        github: "http://bit.ly/30WarKh",
+        url: "http://bit.ly/3aqd0by", 
+        cta: "Start Planning"
+
+    },
     "PokeMasters PokeDex" : {
         image: "assets/images/pika.jpg",
         description: "The PokeDex is a Pokemon Trainer's best resource and most important tool. It's time to go exploring.",
