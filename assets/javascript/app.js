@@ -95,7 +95,7 @@ let projects = [
     {
         name: "King Burger",
         image: "assets/images/kingburger.jpg",
-        aos: "fade-right"
+        aos: "fade-left"
     }
 ]
 
