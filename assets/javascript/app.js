@@ -99,6 +99,64 @@ let projects = [
     }
 ]
 
+let technicalSKills = [
+    {
+        name: "HTML",
+        image: "assets/images/html5.png",
+        aos: "fade-right"
+    },    
+    {
+        name: "CSS",
+        image: "assets/images/css3.png",
+        aos: "fade-up"
+    },    
+    {
+        name: "Bootstrap",
+        image: "assets/images/bootstrap.png",
+        aos: "fade-left"
+    },    
+    {
+        name: "JavaScript",
+        image: "assets/images/js.png",
+        aos: "fade-right"
+    },    
+    {
+        name: "jQuery",
+        image: "assets/images/jquery.png",
+        aos: "fade-up"
+    },    
+    {
+        name: "Node.js",
+        image: "assets/images/nodejs.png",
+        aos: "fade-left"
+    },    
+    {
+        name: "Express",
+        image: "assets/images/express.png",
+        aos: "fade-right"
+    },    
+    {
+        name: "Express-Handlebars",
+        image: "assets/images/handlebars.png",
+        aos: "fade-up"
+    },    
+    {
+        name: "MySQL",
+        image: "assets/images/mysql.png",
+        aos: "fade-left"
+    },    
+    {
+        name: "MongoDB",
+        image: "assets/images/mongo.png",
+        aos: "fade-right"
+    },
+    {
+        name: "React.js",
+        image: "assets/images/react.png",
+        aos: "fade-left"
+    }
+]
+
 
 let portfolio = {
     "unWrapped" : {
@@ -246,8 +304,27 @@ $("#contactBtn").on("click", function(){
 })
 
 
+createSkills()
 createProjects()
 
+
+function createSkills() {
+
+    for (let i = 0; i < technicalSKills.length ; i++ ) {
+
+            let theDiv = $("<div>").addClass("col-sm-4 mb-4 pb-4 text-center")
+                        .attr("data-aos", technicalSKills[i].aos)
+            let theImage = $("<img>").addClass("img-fluid theProject")
+                            .attr("alt" , "Responsive image")
+                            .attr("value", technicalSKills[i].name)
+                            .attr("src" , technicalSKills[i].image)
+            let theName = $("<h3>").text(technicalSKills[i].name)
+            theDiv.append(theImage)
+            theDiv.append(theName)
+            $("#skillsDiv").append(theDiv)
+    }
+    
+}
 
 function createProjects() {
 
