@@ -96,6 +96,11 @@ let projects = [
         name: "King Burger",
         image: "assets/images/kingburger.jpg",
         aos: "fade-left"
+    },
+    {
+        name: "The Pokemon Post",
+        image: "assets/images/news.jpg",
+        aos: "fade-left"
     }
 ]
 
@@ -272,6 +277,14 @@ let portfolio = {
         github: "http://bit.ly/2sJ9sjX",
         url: "http://bit.ly/2sGJGg9",
         cta: "Eat at King Burger"
+    },
+    "The Pokemon Post" :{
+        image: "assets/images/post.jpg",
+        description: "A node.js web application that leverages axios, cherrio, express, express-handlebars to web scrape the lastest Pokemon news and then store it in a MongoDB database.",
+        skills: "node.js, express, express-handlers, MongoDB, Cherrio, Axios",
+        github: "http://bit.ly/39dKZTc",
+        url: "http://bit.ly/2vcLpup",
+        cta: "What's the News?"
     }
 } // object end bracket
 
