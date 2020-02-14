@@ -158,6 +158,11 @@ let technicalSKills = [
     {
         name: "React.js",
         image: "assets/images/react.png",
+        aos: "fade-up"
+    },
+    {
+        name: "PHP",
+        image: "assets/images/php.png",
         aos: "fade-left"
     }
 ]
