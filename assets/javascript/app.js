@@ -62,16 +62,16 @@ let projects = [
         image: "assets/images/train.jpg",
         aos: "fade-right"
     }, 
-    // {
-    //     name: "TV Show Hangman Game",
-    //     image: "assets/images/hangman_photo.jpg",
-    //     aos: "fade-right"
-    // }, 
-    // {
-    //     name: "The Psychic Game",
-    //     image: "assets/images/psychic.jpg",
-    //     aos: "fade-up"
-    // },
+    {
+        name: "TV Show Hangman Game",
+        image: "assets/images/hangman_photo.jpg",
+        aos: "fade-right"
+    }, 
+    {
+        name: "The Psychic Game",
+        image: "assets/images/psychic.jpg",
+        aos: "fade-up"
+    },
     {
         name: "The Pro-Bending Championship",
         image: "assets/images/korra_RPG.jpg",
@@ -227,22 +227,22 @@ let portfolio = {
         url: "http://bit.ly/36w0x3V",
         cta: "Begin Your Training"
     },
-    // "TV Show Hangman Game" : {
-    //     image: "assets/images/the hangman.jpg",
-    //     description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
-    //     skills: "HTML, CSS and JavaScript",
-    //     github: "https://github.com/sengland88/Word-Guess-Game",
-    //     url: "https://sengland88.github.io/Word-Guess-Game/",
-    //     cta: "Play the Game"
-    // },
-    // "The Psychic Game" : {
-    //     image: "assets/images/the psychic.jpg",
-    //     description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
-    //     skills: "HTML, CSS and JavaScript",
-    //     github: "https://github.com/sengland88/Psychic-Game",
-    //     url: "https://sengland88.github.io/Psychic-Game/",
-    //     cta: "Play the Game"
-    // },
+    "TV Show Hangman Game" : {
+        image: "assets/images/the hangman.jpg",
+        description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
+        skills: "HTML, CSS and JavaScript",
+        github: "https://github.com/sengland88/Word-Guess-Game",
+        url: "https://sengland88.github.io/Word-Guess-Game/",
+        cta: "Play the Game"
+    },
+    "The Psychic Game" : {
+        image: "assets/images/the psychic.jpg",
+        description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
+        skills: "HTML, CSS and JavaScript",
+        github: "https://github.com/sengland88/Psychic-Game",
+        url: "https://sengland88.github.io/Psychic-Game/",
+        cta: "Play the Game"
+    },
     "LIRI" : {
         image: "assets/images/liri-bot.jpg",
         description: "A node.js application, LIRI will retrieve information on concerts, songs and movies.",
