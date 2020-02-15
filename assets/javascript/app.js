@@ -38,59 +38,64 @@ let projects = [
         aos: "fade-up"
     },
     {
+        name: "Sailor Moon Memory Game",
+        image: "assets/images/sailormoon.jpg",
+        aos: "fade-left"
+    },
+    {
         name: "Assemble the Avengers",
         image: "assets/images/avengers.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "LIRI",
         image: "assets/images/liri.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "Save the Pokemon",
         image: "assets/images/pokemon_game.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     }, 
     {
         name: "Grey's Anatomy Trivia",
         image: "assets/images/greys.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     }, 
     {
         name: "Train Time",
         image: "assets/images/train.jpg",
-        aos: "fade-right"
-    }, 
-    {
-        name: "TV Show Hangman Game",
-        image: "assets/images/hangman_photo.jpg",
-        aos: "fade-right"
-    }, 
-    {
-        name: "The Psychic Game",
-        image: "assets/images/psychic.jpg",
         aos: "fade-up"
-    },
+    }, 
+    // {
+    //     name: "TV Show Hangman Game",
+    //     image: "assets/images/hangman_photo.jpg",
+    //     aos: "fade-right"
+    // }, 
+    // {
+    //     name: "The Psychic Game",
+    //     image: "assets/images/psychic.jpg",
+    //     aos: "fade-up"
+    // },
     {
         name: "The Pro-Bending Championship",
         image: "assets/images/korra_RPG.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "TvMaze",
         image: "assets/images/tvmaze.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "Bamazon",
         image: "assets/images/bamazon.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "Magnet - A Dating App",
         image: "assets/images/magnet.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "King Burger",
@@ -100,7 +105,7 @@ let projects = [
     {
         name: "The Pokemon Post",
         image: "assets/images/news.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     }
 ]
 
@@ -186,7 +191,15 @@ let portfolio = {
         url: "http://bit.ly/36vidwn", 
         cta: "Let's Go!"
 
-    }, 
+    },
+    "Sailor Moon Memory Game": {
+        image: "assets/images/sailorscouts.jpg",
+        description: "A game that tests the user's memory by displaying a series of photos and shuffles the images after each click - with each click affecting the state of application..",
+        skills: "HTML, CSS, Bootstrap, JavaScript, React.js",
+        github: "http://bit.ly/2HpG1qH",
+        url: "http://bit.ly/2UUEIrU",
+        cta: "Moon Prism Power!"
+    },
     "Assemble the Avengers": {
         image: "assets/images/the avengers.jpg",
         description: "Help the Avengers remember who they are by loading GIFs into a special webpage built to help recover their memories.",
@@ -227,22 +240,22 @@ let portfolio = {
         url: "http://bit.ly/36w0x3V",
         cta: "Begin Your Training"
     },
-    "TV Show Hangman Game" : {
-        image: "assets/images/the hangman.jpg",
-        description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
-        skills: "HTML, CSS and JavaScript",
-        github: "https://github.com/sengland88/Word-Guess-Game",
-        url: "https://sengland88.github.io/Word-Guess-Game/",
-        cta: "Play the Game"
-    },
-    "The Psychic Game" : {
-        image: "assets/images/the psychic.jpg",
-        description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
-        skills: "HTML, CSS and JavaScript",
-        github: "https://github.com/sengland88/Psychic-Game",
-        url: "https://sengland88.github.io/Psychic-Game/",
-        cta: "Play the Game"
-    },
+    // "TV Show Hangman Game" : {
+    //     image: "assets/images/the hangman.jpg",
+    //     description: "We all have our favorite TV shows. Go ahead and try to guess the TV show before time runs out.",
+    //     skills: "HTML, CSS and JavaScript",
+    //     github: "https://github.com/sengland88/Word-Guess-Game",
+    //     url: "https://sengland88.github.io/Word-Guess-Game/",
+    //     cta: "Play the Game"
+    // },
+    // "The Psychic Game" : {
+    //     image: "assets/images/the psychic.jpg",
+    //     description: "Consider yourself lucky or intuitive? Let's see find out. Try to guess the random letter of the alphabet.",
+    //     skills: "HTML, CSS and JavaScript",
+    //     github: "https://github.com/sengland88/Psychic-Game",
+    //     url: "https://sengland88.github.io/Psychic-Game/",
+    //     cta: "Play the Game"
+    // },
     "LIRI" : {
         image: "assets/images/liri-bot.jpg",
         description: "A node.js application, LIRI will retrieve information on concerts, songs and movies.",
