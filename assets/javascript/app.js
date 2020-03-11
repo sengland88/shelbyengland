@@ -28,44 +28,49 @@ AOS.init({
 
 let projects = [
     {
+        name: "Valencia Recognition App",
+        image: "assets/images/valencia.jpg",
+        aos: "fade-right"
+    },
+    {
         name: "unWrapped",
         image: "assets/images/unwrapped.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "PokeMasters PokeDex",
         image: "assets/images/pokedex.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "Sailor Moon Memory Game",
         image: "assets/images/sailormoon.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "Assemble the Avengers",
         image: "assets/images/avengers.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "LIRI",
         image: "assets/images/liri.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "Save the Pokemon",
         image: "assets/images/pokemon_game.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     }, 
     {
         name: "Grey's Anatomy Trivia",
         image: "assets/images/greys.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     }, 
     {
         name: "Train Time",
         image: "assets/images/train.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     }, 
     // {
     //     name: "TV Show Hangman Game",
@@ -80,32 +85,32 @@ let projects = [
     {
         name: "The Pro-Bending Championship",
         image: "assets/images/korra_RPG.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "TvMaze",
         image: "assets/images/tvmaze.jpg",
-        aos: "fade-right"
+        aos: "fade-up"
     },
     {
         name: "Bamazon",
         image: "assets/images/bamazon.jpg",
-        aos: "fade-up"
+        aos: "fade-left"
     },
     {
         name: "Magnet - A Dating App",
         image: "assets/images/magnet.jpg",
-        aos: "fade-left"
+        aos: "fade-right"
     },
     {
         name: "King Burger",
         image: "assets/images/kingburger.jpg",
-        aos: "fade-left"
+        aos: "fade-up"
     },
     {
         name: "The Pokemon Post",
         image: "assets/images/news.jpg",
-        aos: "fade-right"
+        aos: "fade-left"
     }
 ]
 
@@ -174,6 +179,15 @@ let technicalSKills = [
 
 
 let portfolio = {
+    "Valencia Recognition App" : {
+        image: "assets/images/valencialogo.jpg",
+        description: "To encourage colleague and departmental recognition within Organizational Development and Human Resources (ODHR) at Valencia College, this web application leverages a full MERN (MongoDB, Express, React.js and Node.js) stack. Please note that this application is built to the specific needs of ODHR at Valencia College.",
+        skills: "MongoDB, Express, React, Node, Passport, React Bootstrap, React Router, CSS, Bootstrap, Axios",
+        github: "http://bit.ly/3aQNT1d",
+        url: "http://bit.ly/2vPUvOB", 
+        cta: "View the Demo"
+
+    },
     "unWrapped" : {
         image: "assets/images/unwrapped2.jpg",
         description: "As a party planning application, unWrapped helps users stay organized before, during and after a celebration.",
