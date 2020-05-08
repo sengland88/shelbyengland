@@ -174,6 +174,11 @@ let technicalSKills = [
         name: "PHP",
         image: "assets/images/php.png",
         aos: "fade-left"
+    },
+    {
+        name: "C#",
+        image: "assets/images/csharp.png",
+        aos: "fade-up"
     }
 ]
 
