@@ -178,7 +178,12 @@ let technicalSKills = [
     {
         name: "C#",
         image: "assets/images/csharp.png",
-        aos: "fade-up"
+        aos: "fade-right"
+    },
+    {
+        name: "Vue",
+        image: "assets/images/vue.png",
+        aos: "fade-left"
     }
 ]
 
