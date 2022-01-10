@@ -183,6 +183,11 @@ let technicalSKills = [
     {
         name: "Vue",
         image: "assets/images/vue.png",
+        aos: "fade-up"
+    },
+    {
+        name: "Angular",
+        image: "assets/images/angular.png",
         aos: "fade-left"
     }
 ]
